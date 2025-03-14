@@ -63,5 +63,6 @@ int main()
 	// Вычисляем продолжительность выполнения
 	auto duration = std::chrono::duration_cast<std::chrono::milliseconds> (end - start);
 	std::cout << std::endl << "time: " << duration.count() << " milliseconds" << std::endl;
+	std::cout << "Maryasov Stanislav Sergeevich. Group: 090304-RPIb-o24";
 }
 
