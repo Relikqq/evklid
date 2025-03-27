@@ -33,7 +33,7 @@ static void evklid(int a, int b, int c)
 		int x = 2147483647;
 		old_s *= (c / old_r);
 		old_t *= (c / old_r);
-		for (int k = -1; k <= 2; k++)
+		for (int k = -1000; k <=1000; k++)
 		{
 			int ghx = old_s + (k * (b / old_r));
 			if (ghx > -1 and x > ghx)
