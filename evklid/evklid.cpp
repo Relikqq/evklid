@@ -36,7 +36,7 @@ static void evklid(int a, int b, int c)
 		for (int k = -1; k <= 2; k++)
 		{
 			int ghx = old_s + (k * (b / old_r));
-			if (ghx > 0 and x > ghx)
+			if (ghx > -1 and x > ghx)
 			{
 				x = ghx;
 			}
